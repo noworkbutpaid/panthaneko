@@ -108,8 +108,8 @@
                                         <span class="hover-shape3"></span>
                                     </a>
                                     <ul>
-                                        <li><a href="https://pancakeswap.finance/swap?outputCurrency=0xB8DE4ad84A50bfBaB73EeD0234dA4556fC4CfE96"><img src="assets/images/icons/pancake.png" alt="pancake"> PancakeSwap</a></li>
-                                        <li><a href="https://poocoin.app/tokens/0xb8de4ad84a50bfbab73eed0234da4556fc4cfe96"><img src="assets/images/icons/poocoin.png" alt="poocoin"> Poocoin</a></li>
+                                        <li><a href="https://www.dextools.io/app/en/ether/pair-explorer/0x710b867ade9382dc45d8f615173bb8271c17a912"><img width="30px" src="assets/images/partners/dextools.png" alt="dextools"> DexTools</a></li>
+                                        <li><a href="https://app.uniswap.org/#/swap"><img width="30px" src="assets/images/partners/uniswap.png" alt="uniswap"> UniSwap</a></li>
                                         <!-- <li><a href="#"><img src="assets/images/icons/market.png" alt="market"> CoinMarketCap</a></li>
                                         <li><a href="#"><img src="assets/images/icons/gate.png" alt="gate"> Gate.io</a></li> -->
                                     </ul>
@@ -195,8 +195,18 @@
                                     </a>
                                 </div>
                                 <div class="buy-token-logos">
+                                    <p class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.8s"></p>
+
+                                    <div class="copy-text">
+                                        
+                                        <input type="text" class="text" value="CA: 0x1D1352f81561aA2141F13DFe8769939Ad005C2C5"> 
+                                        <button> <i  class="fa fa-clone"></i></button>
+                                    
+                                    </div>
+                                    
                                     <!-- <h6>BUY TOKEN ON</h6> -->
                                     <ul>
+                                        
                                         <!-- <li><a href="#"><img src="assets/images/homeV2/buyTokenlogo1.png" alt="logo" class="img-fluid" /></a></li>
                                         <li><a href="#"><img src="assets/images/homeV2/buyTokenlogo2.png" alt="logo" class="img-fluid" /></a></li>
                                         <li><a href="#"><img src="assets/images/homeV2/buyTokenlogo3.png" alt="logo" class="img-fluid" /></a></li>
@@ -221,7 +231,7 @@
                 </div>
             </div>
         </div>
-        <div class="market_cap_sect">
+        <!-- <div class="market_cap_sect">
             <div class="container">
                 <div class="market_cap_all_content">
                     <div class="market_cap_content">
@@ -249,7 +259,7 @@
             </div>
             <span class="green-border-gradient"></span>
             <span class="green-border-gradient"></span>
-        </div> 
+        </div>  -->
 
         <!-- How to Participate Srart -->
         <div class="fair_launch_sect" id="launch">
@@ -264,7 +274,7 @@
                             </div>
                             <div class="how_to_participate_left_content">
                                 <div class="tokenomics_contents_right wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.4s">
-                                    <p>CA:0x1D1352f81561aA2141F13DFe8769939Ad005C2C5</p>
+                                    <p>CA: 0x1D1352f81561aA2141F13DFe8769939Ad005C2C5</p> 
                                     <img width=600px" src="assets/images/panther/rakit.png" alt="img" class="img-fluid" />
                             </div>
                             </div>
@@ -488,7 +498,7 @@
                             <div class="col-md-6">
                                 <div class="tokenomics_contents_right wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.4s">
                                    
-                                        <img width=700px" src="assets/images/panther/astoy.jpg" alt="img" class="img-fluid" />
+                                        <img width=700px" src="assets/images/panther/astoy.png" alt="img" class="img-fluid" />
                                 </div>
                             </div>
 
@@ -516,7 +526,7 @@
         <!-- Tokenomics Section End -->
         
         <!-- Multi-Chain Support Section start -->
-        <div class="multi_chain_support_sect" id="mission">
+        <!-- <div class="multi_chain_support_sect" id="mission">
            
                 <div id="my-keen-slider" class="keen-slider">
                     <div class="keen-slider__slide">
@@ -586,7 +596,7 @@
                       <img src="assets/images/squad/21.jpg" alt="" />
                     </div>
                   </div>
-            </div>
+            </div> -->
         
         <!-- Multi-Chain Support Section End -->
         
@@ -1124,6 +1134,21 @@
              animationEnded(s) {
                s.moveToIdx(s.track.details.abs + 5, true, animation);
              },
+           });
+
+
+           let copyText = document.querySelector(".copy-text");
+           copyText.querySelector("button").addEventListener("click", function(){
+            let input = copyText.querySelector("input.text");
+                input.select();
+                document.execCommand("copy");
+                copyText.classList.add("active");
+                window.getSelection().removeAllRanges();
+
+                setTimeout(function(){
+                    copyText.classList.remove("active");
+                },2500);
+
            });
          </script>
     </body>
