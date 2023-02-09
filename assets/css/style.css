@@ -1491,10 +1491,9 @@ body .modal-backdrop {
 
 .gamfi_header_v2 {
   min-height: 800px;
-  background: url("../images/bg/bgV2.png");
+  background: url("../images/bg/bg.jpg");
   background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .gamfi_v2_hero_sect {
@@ -2099,7 +2098,7 @@ body .modal-backdrop {
     background: url(../images/bg/project-bg.jpg);
     */
   background: #090A1A;
-  padding-top: 115px;
+  padding-top: -100px;
   padding-bottom: 105px;
 }
 
@@ -2110,11 +2109,11 @@ body .modal-backdrop {
 
 .key_points_section .key_points_bg {
   position: absolute;
-  background: url("../images/bg/project-bg.png");
+  background: url("../images/bg/team-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 1200px;
+  height: 777px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2252,7 +2251,7 @@ body .modal-backdrop {
 
 .key_points_section {
   background: rgb(13 13 22);
-  padding-top: 115px;
+  padding-top: -84px;
   padding-bottom: 105px;
   position: relative;
 }
@@ -2535,10 +2534,10 @@ body .modal-backdrop {
 }
 
 .multi_chain_support_sect {
-  background: url("../images/bg/bgV2.png");
+  background: url("../images/bg/bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  object-fit:  cover;
   padding-top: 0px;
   padding-bottom: 105px;
 }
@@ -3460,11 +3459,11 @@ body .modal-backdrop {
       -ms-flex-pack: start;
           justify-content: flex-start;
   min-height: 186px;
-  padding: 35px 50px;
+  padding: 35px 25px;
   background: rgba(22, 2, 50, 0.7);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .how_to_participate_right_card_number {
@@ -3491,7 +3490,8 @@ body .modal-backdrop {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
+  text-align: justify;
   line-height: 26px;
   margin-bottom: 0px;
   color: rgba(255, 255, 255, 0.7);
@@ -9393,10 +9393,10 @@ div.latest-item .hover-shape-bg {
 }
 
 .tokenomics_section {
-  background: url("../images/bg/bgV2.png");
+  background: url("../images/bg/tokenbg.jpg");
   background-position: center center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 0px;
   padding-bottom: 105px;
 }
@@ -13867,7 +13867,7 @@ div.latest-item .hover-shape-bg {
   background: url("../images/bg/breadcrumbs-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding: 80px 0 70px;
 }
 
