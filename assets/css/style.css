@@ -1491,8 +1491,7 @@ body .modal-backdrop {
 
 .gamfi_header_v2 {
   min-height: 800px;
-  background: 
-  url("../images/bg/bgV2.png");
+  background: url("../images/bg/bgV2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2536,8 +2535,7 @@ body .modal-backdrop {
 }
 
 .multi_chain_support_sect {
-  background: 
-  url("../images/bg/bgV2.png");
+  background: url("../images/bg/bgV2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9395,8 +9393,7 @@ div.latest-item .hover-shape-bg {
 }
 
 .tokenomics_section {
-  background: 
-  url("../images/bg/bgV2.png");
+  background: url("../images/bg/bgV2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
