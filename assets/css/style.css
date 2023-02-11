@@ -2958,7 +2958,7 @@ body .modal-backdrop {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 36px;
   color: rgba(255, 255, 255, 0.7);
   display: -webkit-box;
@@ -14466,7 +14466,8 @@ div.latest-item .hover-shape-bg {
   background-size: cover;
   position: relative;
   padding-top: 250px;
-  margin-top: -150px;
+  margin-top: -300px;
+  margin-bottom: -150px;
 }
 
 .footer-cta-area .footer-link input[type="email"] {
