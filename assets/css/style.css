@@ -3417,7 +3417,6 @@ body .modal-backdrop {
 
 
 
-
 .fair_launch_right_card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3445,6 +3444,20 @@ body .modal-backdrop {
   line-height: 27px;
   color: #FFFFFF;
   margin-bottom: 10px;
+}
+
+.fair_launch_left_content p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  text-align: justify;
+  font-size: 17px;
+  line-height: 26px;
+  color: rgba(255, 255, 255);
+  margin-bottom: 40px;
+  max-width: 450px;
+  width: 100%;
+  padding-right: 12px;
 }
 
 
