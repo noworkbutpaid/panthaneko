@@ -3342,6 +3342,7 @@ body .modal-backdrop {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 140px;
+  padding-top: 15px;
 }
 
 .how_to_participate_sect .moon_img_bg {
