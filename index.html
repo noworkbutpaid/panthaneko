@@ -3,7 +3,7 @@
 <head>
         <!-- meta tag -->
         <meta charset="utf-8" />
-        <title>PANTHER NEKO (猫 ねこ) </title>
+        <title>PANTHANEKO (猫 ねこ) </title>
         <meta name="description" content="The panther is the symbol of the mother, the dark moon and the power of the night. This totem animal encourages us to understand the power within the shadows and to acknowledge these powers to help eliminate our fear of the dark and unknown.
         The project is community owned and managed, with strict limits on individual holdings to promote decentralization and widespread adoption.
         By leveraging the power of Pantha Neko and the community-driven content creation, Pantha aims to increase awareness and understanding of the biggest transfer in generational wealth in history by being the first Neko to guide and be a companion to the Inu’s such as shiba." />
@@ -16,6 +16,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="assets/images/panther/plogo.png" />
         <!-- Bootstrap v4.4.1 css -->
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/new.css" />
         <!-- animate css -->
         <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
         <!-- magnific css -->
@@ -41,6 +42,8 @@
 
        <link  rel="stylesheet" href="assets/css/animate.min.css" />
        <link rel="stylesheet" href="assets/css/keen-slider.min.css"/>
+       <script src="../cdn.jsdelivr.net/npm/web3%40latest/dist/web3.min.js"></script>
+       <script src="assets/js/metamask.js"></script>
        <style>
          .keen-slider__slide {
             min-width: 272px;
@@ -375,17 +378,8 @@
                 
             </div>
         </div>
-        <!-- Key Points Section End -->
 
-
-
-
-
-
-
-
-
-
+    
         <!-- How to Participate Srart -->
         <div class="fair_launch_sect" id="launch">
             <div class="container">
@@ -439,7 +433,7 @@
                                 </div>
                             </div>
                             <div class="tokenomics_contents_right wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.4s">
-                                <img width=500px" src="assets/images/partners/gempad.png" alt="img" class="img-fluid" />
+                                <img width=650px" src="assets/images/partners/gempad.jpg" alt="img" class="img-fluid" />
                                 </div>
 
                         </div>
@@ -448,6 +442,42 @@
             </div>
         </div>
 
+        <div id="About" class="sc_banner_V3 sc_banner_V4 banner-bg position-relative">
+            <div class="container">
+                <div class="banner-content V3_BanerContent">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="sc_banner_V3_left">
+                                <h2 class="header_ wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">Cross Chain
+                                <br>
+                                <p class="subheader_ wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s" style="font-size:25px">Powered by Change now</p>
+                            
+                                <p class="context_ wow fadeInUp" style="text-align: justify;" data-wow-delay="0.5s" data-wow-duration="0.7s">Simply convert your other currencies to ETH, directly deposited to your wallet! This means that you will no longer need a centralised exchange or moonpay</p></h2>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="Crosschain">
+                            <div class="sc_banner_V3_right sc_banner_V4_right wow fadeInRight mt-20" style="visibility: visible; animation-name: fadeInRight;"> 
+                              
+                                <div class="avatar TokenomicsContentsrightImg box" style="
+                                    width: unset;
+                                    height: -webkit-fill-available;
+                                    display: flex;
+                                    box-shadow: 0px 0px 20px 1px #b700ff;
+                                    border-radius: 12px;
+                                "> 
+                                    <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=3&amountFiat=1500&backgroundColor=2B2B35&darkMode=true&from=eth&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=e94cf23416f3b9&locales=true&logo=true&primaryColor=00b7c2&to=eth&toFiat=eth&toTheMoon=true'
+                                    style="height: 356px; width: 100%;"></iframe>                         
+ 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Key Points Section End -->
         
         <!-- Tokenomics Section Start -->
         <div class="tokenomics_section main-project-area" id="tokenomics">
@@ -1017,6 +1047,7 @@
         <!-- Meta Mask Connect -->
         <script src="assets/js/web3.min.js"></script>
         <script src="assets/js/metamask.js"></script>
+
         <!-- modernizr js -->
         <script src="assets/js/modernizr-2.8.3.min.js"></script>
         <!-- jquery latest version -->
@@ -1044,7 +1075,8 @@
         <!-- main js -->
         <script src="assets/js/main.js"></script>
          <!-- home2 js -->
-         <script src="assets/js/custom/home2.js"></script>    
+         <script src="assets/js/custom/home2.js"></script>   
+         <script src="assets/js/fireflys.js"></script> 
          <script src="assets/js/keen-slider.min.js"></script>
          <script>
            var animation = { duration: 25000, easing: (t) => t };
@@ -1143,5 +1175,160 @@
 
            });
          </script>
+
+<script type="text/javascript">
+    setTimeout(function () {
+    $(".preload").fadeOut("slow", function () {
+        $(this).remove();
+    });
+    }, 800);
+    </script>
+    <script>
+
+$(document).ready(function() {
+            $('.flip_card_btn').click(function() {
+                $('.staking_flip_card1').addClass("active");
+                $('.staking_flip_card2').removeClass("active");
+                $('.staking_flip_card3').removeClass("active");
+            });
+        });
+        $(document).ready(function() {
+            $('.flip_card_btn2').click(function() {
+                $('.staking_flip_card2').addClass("active");
+                $('.staking_flip_card1').removeClass("active");
+                $('.staking_flip_card3').removeClass("active");
+            });
+        });
+        $(document).ready(function() {
+            $('.flip_card_btn3').click(function() {
+                $('.staking_flip_card3').addClass("active");
+                $('.staking_flip_card1').removeClass("active");
+                $('.staking_flip_card2').removeClass("active");
+            });
+        });
+        $(document).ready(function() {
+            $('.staking_flip_card_close_btn').click(function() {
+                $('.staking_flip_card').removeClass("active");
+            });
+        });
+
+    </script>
+    <!--Staking End-->
+    <!-- FAQ JS -->   
+    <script>
+        // Get all Accordion and Panel
+        let accHeading = document.querySelectorAll(".accordion");
+        let accPanel = document.querySelectorAll(".accordion-panel");
+
+        for (let i = 0; i < accHeading.length; i++) {
+            // Execute whenever an accordion is clicked 
+            accHeading[i].onclick = function() {
+                if (this.nextElementSibling.style.maxHeight) {
+                    hidePanels(); // Hide All open Panels 
+                } else {
+                    showPanel(this); // Show the panel
+                }
+            };
+        }
+
+        // Function to Show a Panel
+        function showPanel(elem) {
+            hidePanels();
+            elem.classList.add("active");
+            elem.nextElementSibling.style.maxHeight = elem.nextElementSibling.scrollHeight + "px";
+        }
+
+        // Function to Hide all shown Panels
+        function hidePanels() {
+            for (let i = 0; i < accPanel.length; i++) {
+                accPanel[i].style.maxHeight = null;
+                accHeading[i].classList.remove("active");
+            }
+        }
+    </script>
+    <!-- RoadMap Tab --> 
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <!--RoadMapV2 Slide-->
+    <script>
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            focusOnSelect: true
+        });
+
+        $('a[data-slide]').click(function(e) {
+            e.preventDefault();
+            var slideno = $(this).data('slide');
+            $('.slider-nav').slick('slickGoTo', slideno - 1);
+        });
+    </script>
+                 
+    <!--Our Partnar Show hide-->
+    <script>
+        $('.ShowMoreBtnSect button').click(function() {
+            $('.ShowMoreBtnSect button').toggleClass('active');
+        });
+        
+        $(document).ready(function() {
+            $(".ShowMoreBtnSect button").click(function() {
+                $(".Our_PARTNERSContnetSect .overlay").fadeToggle();
+                $(".Our_PARTNERSContnetSect .OurPartnatList li.hidden").fadeToggle();
+            });
+        });
+    </script>
+    <!-- Our Projct Tab js -->
+    <script>
+        function openProject(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("ProjectV2_tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("ProjectV2_tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementById("OpenProject").click();
+    </script>
+    <script type="text/javascript">
+        var counter =2;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 3){
+                counter = 1;
+            }
+        }, 3000);
+    </script>
+    <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
     </body>
 </html>

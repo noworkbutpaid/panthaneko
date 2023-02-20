@@ -19,8 +19,74 @@ CSS table of content
 01. Settings style
 --------------------------------*/
 /*font family included*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap");
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(http://fonts.gstatic.com/s/russoone/v13/Z9XUDmZRWg6M1LvRYsH-yA.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf) format('truetype');
+}
+
 /*--------------------------------
 02. Base style
 --------------------------------*/
@@ -2290,248 +2356,126 @@ body .modal-backdrop {
   line-height: 28px;
   color: rgba(255, 255, 255, 0.7);
 }
+/* --------------------
+HomeV3
+-----------------------*/
 
-.tier_system_section {
-  background: #090A1A;
-  padding-top: 0px;
-  padding-bottom: 105px;
-}
-
-.tier_system_headings {
-  margin-bottom: 4px;
-}
-
-.tier_system_headings ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding: 0px 26px;
-}
-
-.tier_system_headings ul li {
-  font-family: Russo One;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 45px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.tier_system_headings ul li.tiers_headings {
-  width: 140px;
-  margin-right: 81px;
-}
-
-.tier_system_headings ul li.staking_headings {
-  width: 158px;
-  margin-right: 46px;
-}
-
-.tier_system_headings ul li.allocation_headings {
-  width: 175px;
-  margin-right: 84px;
-}
-
-.tier_system_headings ul li.requirements_headings {
-  width: 158px;
-  margin-right: 79px;
-}
-
-.tier_system_headings ul li.kyc_headings {
-  width: 41px;
-  margin-right: 73px;
-}
-
-.tier_system_headings ul li.weight_headings {
-  width: 99px;
-}
-
-.tier_system_items {
-  min-height: 92px;
-  width: 100%;
-  background: rgba(30, 31, 53, 0.8);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  margin-bottom: 20px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.tier_system_items:hover {
-  background: radial-gradient(circle, rgba(96, 79, 169, 0.58) -7%, #1E1F35 30%);
-  background-position: center;
+.sc_banner_V3 {
+  background: url("../images/bg/team-bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center bottom;
+  background-color: #090A1A;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+  padding: 130px 0 225px;
+}
+.V3_BanerContent{
+  padding-top: 60px;
+}
+.Ufo_Img{
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  z-index: 100;
 }
 
-.tier_system_items ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.Animetion_Avater{
+  position: relative;
+  min-height: 350px;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding: 26px;
+  align-items: center;
+  justify-content: center;
+}
+.Animetion_Avater img{
+  position: absolute;
+  z-index: 100;
+  animation-name: Jump_Avater;
+  animation: Jump_Avater 4s infinite;
+}
+@keyframes Jump_Avater {
+  0%,
+  100% {
+      bottom: 0;
+  }
+
+  50% {
+      bottom: 30px;
+  }
 }
 
-.tier_system_items ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+.sc_banner_V3_left h2 {
+  max-width: 499px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.sc_banner_V3_left p {
+  max-width: 564px;
+  width: 100%;
   font-family: Inter;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 158%;
-  text-transform: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
   color: #FFFFFF;
+  margin-bottom: 60px;
+}
+.Animetion_Avater{
+  text-align: center;
+  position: relative;
 }
 
-.tier_system_items ul li span {
-  min-width: 40px;
-  margin-right: 11px;
-}
 
-.tier_system_items ul li strong {
+.sc_banner_V3_right{}
+.sc_banner_V3_right ul{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sc_banner_V3_right ul li{
+  margin-right: 35px;
+  max-width: 163px;
+  width: 100%;
+}
+.sc_banner_V3_right ul li h3 {
   font-family: Russo One;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 158%;
+  line-height: 40px;
   color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.sc_banner_V3_right ul li h4 {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #6D4AFE;
+  margin-bottom: 0px;
 }
 
-.tier_system_items ul li.tiers_item {
-  width: 140px;
-  margin-right: 84px;
+#Crosschain{
+  position: relative;
+  -webkit-animation-name: RocketLaunch;
+          animation-name: RocketLaunch;
+  -webkit-animation: RocketLaunch 5s infinite;
+          animation: RocketLaunch 5s infinite;
+  z-index: 1;
 }
 
-.tier_system_items ul li.staking_item {
-  width: 158px;
-  margin-right: 46px;
-}
+/*---------------------------------
+      Avatar Float
+*/
 
-.tier_system_items ul li.allocation_item {
-  width: 175px;
-  margin-right: 84px;
-}
-
-.tier_system_items ul li.requirements_item {
-  width: 158px;
-  margin-right: 79px;
-}
-
-.tier_system_items ul li.kyc_item {
-  width: 41px;
-  margin-right: 73px;
-}
-
-.tier_system_items ul li.weight_item {
-  width: 99px;
-}
-
-.tier_system_items span.border-shadow-red1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 37, 82, 0.5)), to(rgba(21, 22, 37, 0)));
-  background: linear-gradient(180deg, rgba(248, 37, 82, 0.5) 0%, rgba(21, 22, 37, 0) 100%);
-  height: 200px;
-  width: 5px;
-  position: absolute;
-  z-index: 4;
-  top: -97.5px;
-  left: 97.5px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  display: none;
-}
-
-.tier_system_items span.border-shadow-red2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 37, 82, 0.5)), to(rgba(21, 22, 37, 0)));
-  background: linear-gradient(180deg, rgba(248, 37, 82, 0.5) 0%, rgba(21, 22, 37, 0) 100%);
-  height: 87px;
-  width: 5px;
-  position: absolute;
-  z-index: 4;
-  top: 5px;
-  left: 0px;
-  display: none;
-}
-
-.tier_system_items span.border-shadow-green1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(163, 255, 18, 0.5)), to(rgba(21, 22, 37, 0)));
-  background: linear-gradient(180deg, rgba(163, 255, 18, 0.5) 0%, rgba(21, 22, 37, 0) 100%);
-  height: 200px;
-  width: 5px;
-  position: absolute;
-  z-index: 4;
-  bottom: -97.5px;
-  right: 97.5px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  display: none;
-}
-
-.tier_system_items span.border-shadow-green2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(163, 255, 18, 0.5)), to(rgba(21, 22, 37, 0)));
-  background: linear-gradient(180deg, rgba(163, 255, 18, 0.5) 0%, rgba(21, 22, 37, 0) 100%);
-  height: 85px;
-  width: 5px;
-  position: absolute;
-  z-index: 4;
-  bottom: 5px;
-  right: 0px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  display: none;
-}
-
-.tier_system_items:hover span.border-shadow-red1,
-.tier_system_items:hover span.border-shadow-red2 {
-  display: block;
-}
-
-.tier_system_items:hover span.border-shadow-green1,
-.tier_system_items:hover span.border-shadow-green2 {
-  display: block;
-}
-
-.tier_system_items .bg-shape {
-  position: absolute;
-  height: 100%;
-  display: none;
-  left: 45%;
-}
-
-.tier_system_items .bg-shape img {
-  height: 100%;
-}
-
-.tier_system_items:hover .bg-shape {
-  display: block;
-}
 
 .multi_chain_support_sect {
   background: url("../images/bg/bg.jpg");
@@ -3048,6 +2992,48 @@ body .modal-backdrop {
   50% {
     bottom: 30px;
   }
+}
+
+
+
+
+
+/*-------------------------avatar float-----------------*/
+
+
+.avatar-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes float {
+  0% {
+/*        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+      transform: translatey(0px);
+  }
+  50% {
+/*        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+      transform: translatey(-20px);
+  }
+  100% {
+/*        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+      transform: translatey(0px);
+  }
+}
+
+.avatar {
+  width: 600px;
+  height: 450px;
+/*    box-sizing: border-box;*/
+  overflow: hidden;
+/*    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+/*    transform: translatey(0px);*/
+  animation: float 6s ease-in-out infinite;
+  img { width: 100%; height: auto; }
 }
 
 .sc_banner_v3_left h2 {

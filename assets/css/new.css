@@ -1,0 +1,116 @@
+
+.gamfi-breadcrumbs-section .breadcrumbs-link {
+    color: #FFF !important;
+    
+}
+.gamfi-breadcrumbs-section .breadcrumbs-link:before {
+    background-color: #FFF !important;
+}
+.sec-headings .sub-title.stake {
+    color: #FFF !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-family: 'Geometria' !important;
+}
+.staking_bradcome_right ul li h6 {
+    color: #FFF !important;
+}
+.staking_bradcome_right ul li h5 {
+    color: #FFF !important;
+}
+.sec-headings h2.title {
+    font-size: 48px;
+    font-family: 'SONGER SemiExpanded';
+    color: #FFF;
+}
+.staking_flip_card_front_timebg span:before {
+    content: url(../images/icons/clocke.svg) !important;
+}
+.staking_flip_card_front.reds {
+    background-color: #FFF !important;
+    background-image: none !important;
+}
+.staking_flip_card_front.greens {
+    background-color: #FFF !important;
+    background-image: none !important;
+}
+.staking_flip_card_front.blues {
+    background-color: #FFF !important;
+    background-image: none !important;
+}
+.staking_flip_card_front_headings h2 {
+    color: #a100dd !important;
+}
+.staking_flip_card_front_timebg span {
+    color: #a100dd !important;
+}
+.staking_apy h3 {
+    color: #a100dd !important;
+}
+.staking_flip_card_front_list ul li span {
+    color: #a100dd !important;
+}
+.staking_flip_card_front_list ul li strong {
+    color: #a100dd !important;
+}
+.staking_flip_card_front_buttons button {
+    color: #a100dd !important;
+    border: 1px solid #a100dd !important;
+}
+.staking_flip_card_front_reward h6 {
+    color: #a100dd !important;
+}
+.staking_flip_card_front_reward h5 {
+    color: #a100dd !important;
+}
+.staking_flip_card_front_buttons button.btn_purple {
+    background-color: #a100dd !important;
+    color: #FFF !important;
+}
+
+.reds .staking_flip_card_back_overlay {
+    background-color: #EBEBEB !important;
+    background-image: none !important;
+}
+.staking_flip_card_back_headings h2 {
+    color: #a100dd !important;
+}
+.staking_flip_card_back_form form span {
+    color: #a100dd !important;
+}
+.staking_flip_card_back_form_input input {
+    color: #a100dd !important;
+}
+.staking_flip_card_back_form_input {
+    border: 1px solid #a100dd !important;
+}
+.staking_flip_card_back_form_input button {
+    background-color: #a100dd !important;
+}
+.greens .staking_flip_card_back_overlay {
+    background-color: #EBEBEB !important;
+    background-image: none !important;
+}
+.blues .staking_flip_card_back_overlay {
+    background-color: #EBEBEB !important;
+    background-image: none !important;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #a100dd !important;
+ }
+ :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #a100dd !important;
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #a100dd !important;
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #a100dd !important;
+ }
+ .gamfi-breadcrumbs-section.noStyle {
+    background: none !important;
+}
+.ProjectClasicBreadCumSect.noStyle {
+    background-color: none !important;
+}
