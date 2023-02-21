@@ -3082,6 +3082,24 @@
     .list_investors_list ul li.last {
         text-align: right;
     }
+    .avatar{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+      
+      
+      
+      .avatar-iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
 }
 
 @media (max-width: 375px) {
@@ -6419,6 +6437,24 @@
     .ListInvestorsList ul li.last {
         text-align: right;
     }
+    .avatar{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+      
+      
+      
+      .avatar-iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
 }
 
 @media (max-width: 375px) {
@@ -6588,6 +6624,24 @@
     .governanc_content_right_card_btns button{
         font-size: 14px;
     }
+    .avatar{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+      
+      
+      
+      .avatar-iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
 }
 
 @media (max-width: 360px){
@@ -6677,6 +6731,24 @@
     .staking_flip_card_front_timebg span, .staking_apy h3{
         font-size: 12px;
     }
+    .avatar{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+      
+      
+      
+      .avatar-iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
 }
 
 .progress-bar-striped {
