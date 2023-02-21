@@ -3053,7 +3053,8 @@ HomeV3
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 75%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
 }
 
 
@@ -3066,6 +3067,8 @@ HomeV3
   right: 0;
   width: 100%;
   height: 100%;
+  box-shadow: 0px 0px 20px 1px #b700ff;
+  border-radius: 12px;
 }
 
 .sc_banner_v3_left h2 {
