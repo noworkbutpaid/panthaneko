@@ -2998,6 +2998,20 @@ HomeV3
 
 
 
+
+.TokenomicsContentsright{}
+.TokenomicsContentsright .TokenomicsContentsrightImg{
+    backdrop-filter: blur(5px);
+    max-width: 570px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+
 /*-------------------------avatar float-----------------*/
 
 
@@ -14963,3 +14977,4 @@ div.latest-item .hover-shape-bg {
   margin-bottom: 23px;
 }
 /*# sourceMappingURL=style.css.map */
+
