@@ -5851,6 +5851,7 @@
     .TokenomicsContentsright .TokenomicsContentsrightImg {
         padding-top: 0;
         padding-bottom: 0;
+        height: 356px;
     }
     .gamfi-header-section .logo {
         margin-right: 30px;
@@ -6378,7 +6379,12 @@
     .ProjectClasic2_Timer .price-counter .timer ul li span{
         font-size: 10px;
     }
-    
+    .avatar iframe {
+        padding-top: 0px;
+        padding-bottom: 0;
+        height: 356px;
+        width: auto;
+    }
     
     
 }
@@ -6414,6 +6420,13 @@
     .ListInvestorsList ul li.last {
         text-align: right;
     }
+    .avatar iframe {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 356px;
+        width: auto;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -6671,6 +6684,12 @@
     }
     .staking_flip_card_front_timebg span, .staking_apy h3{
         font-size: 12px;
+    }
+    .avatar iframe {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 356px;
+        width: auto;
     }
 }
 
