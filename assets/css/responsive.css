@@ -870,11 +870,11 @@
     .presale h2{
         width: 100%;
         font-weight: 900;
-        font-size: 28px;
         line-height: 70px;
         text-transform: uppercase;
         color: #FFFFFF;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        margin-top: 50px;
       }
 }
 
@@ -1295,12 +1295,12 @@
     .presale h2{
         width: 100%;
         font-weight: 900;
-        font-size: 28px;
         line-height: 70px;
         text-transform: uppercase;
         color: #FFFFFF;
-        margin-bottom: 30px;
-      } 
+        margin-bottom: 10px;
+        margin-top: 50px;
+      }
 
     
 }
@@ -1492,11 +1492,11 @@
     .presale h2{
         width: 100%;
         font-weight: 900;
-        font-size: 28px;
         line-height: 70px;
         text-transform: uppercase;
         color: #FFFFFF;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        margin-top: 50px;
       }
     
 }
@@ -1662,11 +1662,11 @@
     .presale h2{
         width: 100%;
         font-weight: 900;
-        font-size: 28px;
         line-height: 70px;
         text-transform: uppercase;
         color: #FFFFFF;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        margin-top: 50px;
       }
     
     /*New CSS*/
