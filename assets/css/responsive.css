@@ -989,6 +989,10 @@
     .gamfi-tokenomics-section .tokenomics-counter h5{
         font-size: 14px;
     }
+    .presale{
+        padding: 50px;
+        height: 600px;
+    }
     
 }
 
@@ -1266,6 +1270,11 @@
     .staking_lq_bradcome_right ul li{
         text-align: left
     }
+    .presale{
+        padding: 50px;
+        height: 600px;
+    }
+
     
 }
 
@@ -1449,6 +1458,10 @@
     .governanc_content_left .gamfi-navigation{
         text-align: center;
     }
+    .presale{
+        padding: 50px;
+        height: 600px;
+    }
     
 }
 
@@ -1605,6 +1618,10 @@
         padding-left: 0px;
         margin: auto;
         margin-top: 40px;
+    }
+    .presale{
+        padding: 50px;
+        height: 600px;
     }
     
     /*New CSS*/
