@@ -3602,7 +3602,7 @@ PreSale
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
   border-radius: .6rem;
   color: white;
 }
