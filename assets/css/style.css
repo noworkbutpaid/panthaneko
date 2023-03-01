@@ -3515,7 +3515,7 @@ PreSale
 
 .presale img{
   height: auto;
-  max-width: 650px;
+  max-width: 750px;
   margin-left: -110px;
 }
 
@@ -3609,7 +3609,7 @@ PreSale
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2rem 2rem;
+  padding: 2rem 1rem;
   border-radius: .6rem;
   color: white;
 }
