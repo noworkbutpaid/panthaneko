@@ -3498,6 +3498,7 @@ PreSale
   padding: 0;
   margin: 0;
   overflow: hidden;
+  z-index: 9;
   padding: 130px 0 225px;
 }
 
