@@ -3482,6 +3482,132 @@ HomeV3
   padding-right: 12px;
 }
 
+/*---------------------------------
+PreSale
+----------------------------------*/
+
+.presale {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: 
+  url("../images/bg/team-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 130px 0 225px;
+}
+
+.presale h2{
+  max-width: 499px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.presale_left_content{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(255, 255, 255);
+  margin-bottom: 40px;
+  max-width: 450px;
+  width: 100%;
+  padding-right: 12px;
+}
+
+.presale_left_content p{
+  font-family: Russo One;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 100px;
+  line-height: 26px;
+  color: rgba(255, 255, 255);
+  margin-bottom: 20px;
+  max-width: 450px;
+  width: 100%;
+  padding-right: 12px;
+}
+
+
+
+
+.presale_right_content{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+
+.countdown{
+  color: black;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  /* transition: .4s ease-in-out;
+      background: rgba(22, 2, 50, 0.7);
+    backdrop-filter: blur(10px); */
+    margin-top: 51px;
+}
+
+
+.countdown h1{
+  font-size: 50px;
+  padding-top: 40px;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+/* .countdown:hover{
+  transform: scale(1.06);
+
+} */
+
+.countdown .presale-btn{
+    align-self: center;
+    background-color: white;
+    outline: none;
+    border: none;
+
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090A1A;
+    margin-bottom: 20px;
+}
+
+.countdown .date{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-radius: .6rem;
+  color: white;
+}
+
+
 
 .how_to_participate_right_card {
   display: -webkit-box;

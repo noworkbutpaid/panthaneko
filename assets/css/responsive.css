@@ -1854,6 +1854,10 @@
     .gamfi_v2_hero_right{
         margin: auto;
         margin-top: 50px;
+    }    
+    .presale{
+        margin: auto;
+        height: 420px;
     }
     
     .market_cap_content h2 {
@@ -5194,6 +5198,10 @@
     .gamfi_V2_hero_right{
         margin: auto;
         margin-top: 50px;
+    }
+    .presale{
+        margin: auto;
+        height: 1080px;
     }
     
     .Market_CapContent h2 {

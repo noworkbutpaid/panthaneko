@@ -378,4 +378,60 @@
     Connect();
   });
   
+
+///Set The Expiry Date
+
+let future = new Date("March 24, 2023 9:30:10").getTime();
+function updateCountdown(){
+
+  //Get Present Date
+let present = new Date().getTime();
+
+///Time Period Between "Now" & "Countdown Date"
+let time_period = future - present;
+
+///Time Calculations For Days, Hours Minutes & Seconds
+const sec = 1000,
+      min = sec *60,
+      hr = min * 60,
+      day = hr * 24;
+
+let d = Math.floor(time_period / day),
+    h = Math.floor((time_period % day) / hr),
+    m = Math.floor((time_period % hr) / min),
+    s = Math.floor((time_period % min) / sec);
+
+
+    d = d < 10 ? '0' + d : d;
+    h = h < 10 ? '0' + h : h;
+    m = m < 10 ? '0' + m : m;
+    s = s < 10 ? '0' + s : s;
+
+///Display Countdown
+
+document.querySelector('.day-no').innerText = d;
+document.querySelector('.hour-no').innerText = h;
+document.querySelector('.minute-no').innerText = m;
+document.querySelector('.second-no').innerText = s;
+
+//Update Countdown Every 1 Second
+ let timer = setTimeout(updateCountdown, 1000)
+
+//Check Expiry Date. If Expired, Display Message
+
+  if(time_period < 0){
+      clearTimeout(timer);
+      document.querySelector('.date').innerHTML = "<h1> PRESALE ENDED! </h1>"
+  }
+
+}
+updateCountdown();
+
+
+
+
+
+
+
+
 })(jQuery);
