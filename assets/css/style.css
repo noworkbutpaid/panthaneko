@@ -3513,6 +3513,12 @@ PreSale
   margin-bottom: 30px;
 }
 
+.presale img{
+  height: auto;
+  max-width: 650px;
+  margin-left: -110px;
+}
+
 .presale_left_content{
   font-family: Inter;
   font-style: normal;

@@ -876,6 +876,11 @@
         margin-bottom: 10px;
         margin-top: 50px;
       }
+      .presale img{
+        height: auto;
+        max-width: 650px;
+        margin-left: -165px;
+      }
 }
 
 
@@ -1010,6 +1015,11 @@
         text-transform: uppercase;
         color: #FFFFFF;
         margin-bottom: 30px;
+      }
+      .presale img{
+        height: auto;
+        max-width: 650px;
+        margin-left: -165px;
       }
     
 }
@@ -1301,6 +1311,11 @@
         margin-bottom: 10px;
         margin-top: 50px;
       }
+      .presale img{
+        height: auto;
+        max-width: 650px;
+        margin-left: -165px;
+      }
 
     
 }
@@ -1498,6 +1513,11 @@
         margin-bottom: 10px;
         margin-top: 50px;
       }
+      .presale img{
+        height: auto;
+        max-width: 650px;
+        margin-left: -165px;
+      }
     
 }
 
@@ -1667,6 +1687,11 @@
         color: #FFFFFF;
         margin-bottom: 10px;
         margin-top: 50px;
+      }
+      .presale img{
+        height: auto;
+        max-width: 650px;
+        margin-left: -165px;
       }
     
     /*New CSS*/
